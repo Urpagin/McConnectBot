@@ -1,3 +1,0 @@
-/home/urpagin/CLionProjects/McConnectBot/cmake-build-debug/CMakeFiles/McConnectBot.dir
-/home/urpagin/CLionProjects/McConnectBot/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/urpagin/CLionProjects/McConnectBot/cmake-build-debug/CMakeFiles/rebuild_cache.dir
