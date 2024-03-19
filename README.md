@@ -1,3 +1,6 @@
+![command line program](https://github.com/Urpagin/McConnectBot/assets/72459611/f0b54f49-50ca-461e-985a-deff9ba00b7c)
+![five bots saying the same thing at the same time](https://github.com/Urpagin/McConnectBot/assets/72459611/c9dbb529-a0b7-43b0-838b-5b9c36739de6)
+
 ## Purpose
 Made to connect *n* number of bots to a Mincraft server, in offline mode though.
 Then those bots all have the possibility to send simultaneously a command.
