@@ -10,9 +10,15 @@ So this is no good-looking repo.
 ### Building
 - Git
 - CMake & Make
+- g++
 ### Dependencies
 - Boost
 - OpenSSL
+### Ubuntu cheat command
+Command to install all required packages on Debian-based Linux distributions.
+```bash
+sudo apt-get install libssl-dev g++ git openssl cmake libboost-all-dev
+```
 
 ## How to install
 
@@ -27,7 +33,11 @@ cd McConnectBot && mkdir build && cd build
 ```bash
 cmake ..
 ```
-
+Good luck if you only have a few cores. Grab a drink
 ```bash
-make . -j$(nproc)
+make -j$(nproc)
+```
+Congratulations! (hopefully nothing explodes or bugs out)
+```bash
+./bin/McConnectBot
 ```
