@@ -17,12 +17,12 @@ So this is no good-looking repo.
 ### Dependencies
 - Boost
 - OpenSSL
-### Ubuntu cheat command
+### Install all dependecy (Debian-based command)
 Command to install all required packages on Debian-based Linux distributions.
 ```bash
 sudo apt-get install libssl-dev g++ git openssl cmake libboost-all-dev -y
 ```
-### Cheat cheat all
+### Auto installs & builds for you (Debian-based command)
 ```bash
 sudo apt-get install libssl-dev g++ git openssl cmake libboost-all-dev -y && git clone --recurse-submodules https://github.com/Urpagin/McConnectBot.git && cd McConnectBot && mkdir build && cd build && cmake .. && make -j$(nproc) && echo 'Now execute with ./bin/McConnectBot'
 ```
