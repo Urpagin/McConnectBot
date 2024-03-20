@@ -20,7 +20,11 @@ So this is no good-looking repo.
 ### Ubuntu cheat command
 Command to install all required packages on Debian-based Linux distributions.
 ```bash
-sudo apt-get install libssl-dev g++ git openssl cmake libboost-all-dev
+sudo apt-get install libssl-dev g++ git openssl cmake libboost-all-dev -y
+```
+### Cheat cheat all
+```bash
+sudo apt-get install libssl-dev g++ git openssl cmake libboost-all-dev -y && git clone --recurse-submodules https://github.com/Urpagin/McConnectBot.git && cd McConnectBot && mkdir build && cd build && cmake .. && make -j$(nproc) && echo 'Now execute with ./bin/McConnectBot'
 ```
 
 ## How to install
